@@ -12,8 +12,7 @@ class ViewController: UIViewController {
     
     //MARK: Properties
     @IBOutlet weak var labelAnswer: UILabel!
-    let randomNumber = Int.random(in: 1...20)
-    
+   
     //MARK: Initializer
     
     //MARKS: Methods
@@ -27,6 +26,7 @@ class ViewController: UIViewController {
 //get random number when shake button is pressed
 //Generate answer to question
     @IBAction func shake(_ sender: Any) {
+        let randomNumber = Int.random(in: 1...20)
         switch randomNumber{
         case 1:
             labelAnswer.text = "It is certain"
