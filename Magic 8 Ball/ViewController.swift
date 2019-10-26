@@ -9,6 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //MARK: Properties
+    
+    //MARK: Initializer
+    
+    //MARKS: Methods
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
